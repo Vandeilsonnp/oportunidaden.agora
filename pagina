@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especialista em Instagram Marketing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #555;
+        }
+
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits ul li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .benefits ul li::before {
+            content: "✔";
+            color: #ff7e5f;
+            margin-right: 10px;
+        }
+
+        .faq {
+            border-top: 1px solid #ddd;
+        }
+
+        .faq h3 {
+            cursor: pointer;
+            padding: 10px;
+            margin: 0;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+
+        .faq p {
+            display: none;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-top: none;
+        }
+
+        .offer {
+            text-align: center;
+            background: #fef5e6;
+            padding: 50px 20px;
+            margin: 30px 0;
+        }
+
+        .offer img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .offer h2 {
+            font-size: 2em;
+            color: #ff7e5f;
+        }
+
+        .offer .old-price {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .offer .new-price {
+            font-size: 2.5em;
+            color: #ff7e5f;
+        }
+
+        .offer button {
+            background: #ff7e5f;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .testimonials {
+            background: #f9f9f9;
+            padding: 50px 20px;
+        }
+
+        .testimonial {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+
+        @media (min-width: 768px) {
+            .benefits ul li {
+                font-size: 1.2em;
+            }
+
+            .offer .new-price {
+                font-size: 3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Mulher satisfeita">
+        <h1>Especialista em Instagram Marketing</h1>
+        <p>Transforme sua presença no Instagram e aumente suas vendas!</p>
+    </header>
+
+    <section class="about">
+        <h2 class="section-title">Sobre o Curso</h2>
+        <p>Este curso foi criado para você que quer dominar estratégias de marketing no Instagram, atrair seguidores engajados e transformar seu perfil em uma máquina de vendas. Tudo isso de forma prática e descomplicada!</p>
+    </section>
+
+    <section class="benefits">
+        <h2 class="section-title">O Que Você Vai Ganhar</h2>
+        <ul>
+            <li>Como criar conteúdos irresistíveis.</li>
+            <li>Estratégias para ganhar mais seguidores e engajamento.</li>
+            <li>Como transformar seguidores em clientes.</li>
+            <li>Ferramentas práticas para otimizar suas campanhas.</li>
+            <li>Aprenda a usar métricas para crescer ainda mais.</li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <h2 class="section-title">Dúvidas Frequentes</h2>
+        <h3>Este curso é para iniciantes?</h3>
+        <p>Sim! Ele foi projetado para iniciantes e também para quem já tem alguma experiência.</p>
+        <h3>Preciso de algum equipamento especial?</h3>
+        <p>Apenas um celular ou computador com acesso à internet.</p>
+        <h3>Quanto tempo dura o curso?</h3>
+        <p>São 10 horas de conteúdo prático que você pode assistir no seu ritmo.</p>
+        <h3>Recebo certificado ao final?</h3>
+        <p>Sim, você recebe um certificado de conclusão válido!</p>
+    </section>
+
+    <section class="offer">
+        <img src="https://via.placeholder.com/200" alt="Capa do curso">
+        <h2>Oferta Exclusiva por Tempo Limitado!</h2>
+        <p class="old-price">De: R$99,90</p>
+        <p class="new-price">Por: R$9,90</p>
+        <button>Quero Garantir Minha Vaga Agora!</button>
+    </section>
+
+    <section class="testimonials">
+        <h2 class="section-title">Quem Já Concluiu Recomenda!</h2>
+        <div class="testimonial">
+            <p>"Melhor investimento que já fiz! Meu perfil cresceu 5x em 3 meses."</p>
+            <small>- Ana Silva</small>
+        </div>
+        <div class="testimonial">
+            <p>"Consegui transformar seguidores em clientes de verdade. Obrigada!"</p>
+            <small>- Camila Oliveira</small>
+        </div>
+        <div class="testimonial">
+            <p>"Simples e direto! Esse curso me deu clareza para alavancar meu negócio."</p>
+            <small>- Mariana Souza</small>
+        </div>
+        <div class="testimonial">
+            <p>"Nunca imaginei que seria tão fácil! Recomendo de olhos fechados."</p>
+            <small>- Letícia Andrade</small>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Especialista em Instagram Marketing - Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script>
+        const faqHeaders = document.querySelectorAll('.faq h3');
+        faqHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const nextElement = header.nextElementSibling;
+                nextElement.style.display = nextElement.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
